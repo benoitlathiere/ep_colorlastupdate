@@ -1,0 +1,43 @@
+/**
+ * ep_colorLastUpdate plugin. This moduke was part of an academic project.
+ * CSS file.
+ * @author Benoit Lathiere
+ * @filesource colorLastUpdate_style.css
+ */
+#editorcontainer {
+	height:auto;
+}
+#colorLastUpdate-panel {
+	position: fixed;
+	bottom: 0;
+	z-index: 300; /*chaticon has 400*/
+	height: 6em;
+	padding: 2px;
+	background-color: black;
+	color: white;
+	width: 100%;
+	margin: 0;
+	clear: both;
+	display: none;
+}
+div.colorLastUpdate-span {
+	display: block;
+	font-size:1.1em;
+	color:white;
+	clear:both;
+	margin: 1px;
+	padding: 1px;
+	position:relative;
+}
+div.colorLastUpdate-span span a {
+	color: white;
+	pointer-events: none;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 720px) {
+	#colorLastUpdate-panel {
+		height: 6em;
+	}
+	div.colorLastUpdate-span {
+		font-size:1em;
+	}
+}

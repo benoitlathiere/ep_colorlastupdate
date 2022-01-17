@@ -1,0 +1,36 @@
+{
+	"name": "ep_colorlastupdate",
+	"version": "0.0.6",
+	"description": "ep_colorlastupdate plug-in for Etherpad. It's a subtitling-like system.\rThis module was originally part of an academic project for deaf students. University Paris 8/Laboratory THIM.",
+	"repository": "",
+	"keywords": [
+	    "Etherpad",
+	    "subtitling",
+	    "accessibility",
+	    "student"
+	],
+	"author": {
+		"name": "Benoit Lathiere",
+		"email": "benoit.lathiere@gmail.com"
+	  },
+	"license": "GPL v3",
+	"bugs": {
+		"email": "benoit.lathiere@gmail.com"
+	},
+	"readmeFilename": "README.md",
+	"files":[
+	    "locales",
+	    "static",
+	    "templates",
+	    "ep.json",
+	    "index.js",
+	    "package.json",
+	    "README.md"
+	],
+	"peerDependencies": 
+		{"ep_etherpad_lite":">=1.6"},
+	"dependencies": {},
+	"engines": {
+		"node": "*"
+	}
+}
